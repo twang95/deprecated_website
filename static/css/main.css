@@ -1,0 +1,42 @@
+#home-button{
+	margin-top: 10px;
+	font-size:20px;
+}
+#background{
+	max-width: 100%;
+	height:auto;
+}
+body{
+	background: url("../img/background.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#topbar{
+	height:75px;
+}
+.navbar-nav.nav-justified > li{
+    float:none;
+}
+.top-buttons{
+	font-size: 16px;
+}
+@font-face{
+	font-family:web-serveroff;
+	src:url("../fonts/winterthurcondensed/winterthurcondensed.ttf");
+}
+p{
+	font-family:web-serveroff;
+	text-align: center;
+	font-size:60px;
+}
+#top-row{
+	margin-top:100px;	
+	margin-bottom:0px;
+}
+#second-row{
+	margin-top:0px;
+	margin-left:200px;
+	position:relative;
+}

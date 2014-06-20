@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+{% load staticfiles %}
+
+<html>
+	<head>
+		<script type="text/javascript" src = "{% static 'js/jquery-1.11.1.min.js' %}"></script>
+		<script type="text/javascript" src = "{% static 'js/bootstrap.min.js' %}"></script>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+		<title>Tony Wang - UC Berkeley Student</title>
+	</head>
+	<body>
+		<div id = "header">
+			<nav class = "navbar navbar-static-top navbar-inverse" id = "topbar" role = "navigation">
+				<div class = "container-fluid">
+					<ul class = "navbar-nav nav-justified nav">
+						<li><a id = "home-button" href="#">Home</a></li>
+						<li><a class = "top-buttons" href="#">Education</a></li>
+						<li><a class = "top-buttons" href="#">Projects</a></li>
+						<li><a class = "top-buttons" href="#">Experience</a></li>
+						<li><a class = "top-buttons" href="#">Interests</a></li>
+						<li><a class = "top-buttons" href="#">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+
+		</div>
+		<div id = "content-container">
+			<p id = "top-row">Tony Wang - UC Berkeley Student</p>
+			<p id = "second-row"> & Web Developer </p>
+		</div>
+	</body>
+</html>
